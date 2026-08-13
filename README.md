@@ -1,5 +1,11 @@
 # Local Workspace Orchestrator
 
+[![CI](https://github.com/leandro4979-hub/local-workspace-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/leandro4979-hub/local-workspace-orchestrator/actions/workflows/ci.yml)
+[![Swift](https://img.shields.io/badge/Swift-6-orange.svg)](https://www.swift.org/)
+[![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-blue.svg)](https://www.apple.com/macos/)
+[![License](https://img.shields.io/github/license/leandro4979-hub/local-workspace-orchestrator.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/leandro4979-hub/local-workspace-orchestrator.svg)](https://github.com/leandro4979-hub/local-workspace-orchestrator/commits/main)
+
 A security-first, read-only coordination plane for local AI-assisted source analysis
 on macOS. It can inspect one explicitly selected workspace and ask a fixed local
 Gemma model for advisory analysis without granting the model filesystem mutation,
@@ -63,6 +69,11 @@ subprocess, background task loop, browser integration, or model-to-model authori
 
 See [Docs/SECURITY.md](Docs/SECURITY.md) for the detailed boundary and
 [SECURITY.md](SECURITY.md) for vulnerability reporting.
+
+## Contributing
+
+Contributions are welcome when they preserve the documented security model. Read
+[CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or pull request.
 
 ## License
 
