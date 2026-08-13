@@ -1,0 +1,14 @@
+{
+  "originHash" : "5d9ca4590b415adbba55bcc6633ee3deacbceb84c1a79722cf763350543d116e",
+  "pins" : [
+    {
+      "identity" : "ollama-local-client",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/leandro4979-hub/ollama-local-client.git",
+      "state" : {
+        "revision" : "c5d102cce72f1cb4ae9c20a4bd47f7a1e57bf522"
+      }
+    }
+  ],
+  "version" : 3
+}
